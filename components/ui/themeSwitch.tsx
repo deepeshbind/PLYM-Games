@@ -1,7 +1,7 @@
 "use client";
 import { cn } from "@/lib/utils";
 import { Moon, Sun } from "lucide-react";
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
 

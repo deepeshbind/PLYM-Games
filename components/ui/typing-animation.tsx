@@ -1,9 +1,8 @@
 "use client"
 
-import { useEffect, useMemo, useRef, useState } from "react"
-import { motion, MotionProps, useInView } from "motion/react"
-
-import { cn } from "@/lib/utils"
+import { useEffect, useMemo, useRef, useState } from "react";
+import { motion, MotionProps, useInView } from "framer-motion";
+import { cn } from "@/lib/utils";
 
 interface TypingAnimationProps extends MotionProps {
   children?: string
